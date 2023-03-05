@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
-$rosa-logo: rgba(232,142,175,255);
+$rosa-logo: rgba(232, 142, 175, 255);
 
 * {
   padding: 0;
@@ -8,9 +8,9 @@ $rosa-logo: rgba(232,142,175,255);
   box-sizing: border-box;
 }
 
-body{ 
+body {
   background: $rosa-logo;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -22,7 +22,7 @@ body{
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
-  width:375px;
+  width: 375px;
 
   & .profile-container {
     border: 3px solid white;
@@ -30,12 +30,11 @@ body{
     border-radius: 6px;
     height: auto;
     width: 40rem;
-    
-    & .name {
-      color:white;
-      padding: 5px;      
-    }
 
+    & .name {
+      color: white;
+      padding: 5px;
+    }
   }
 
   .profile-container {
@@ -44,12 +43,12 @@ body{
 
   & .profile-pic-container {
     text-align: center;
-    padding: 15px;    
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
     & .profile-pic {
       border: 2px solid white;
       box-shadow: -3px 4px 7px white;
@@ -58,7 +57,6 @@ body{
       object-fit: cover;
       object-position: center;
       border-radius: 50%;
-      
     }
 
     & .logo {
@@ -67,12 +65,12 @@ body{
   }
 
   & .link-list-grid {
-   display: grid;
-   gap: 1rem;
-   grid-template-columns: 1fr 1fr ;
-   box-sizing: border-box;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
 
-    & .link-button-container{
+    & .link-button-container {
       display: flex;
       justify-content: center;
       box-sizing: border-box;
@@ -81,7 +79,7 @@ body{
   }
 }
 
-.link-btn{
+.link-btn {
   width: 150px;
 }
 
@@ -90,7 +88,7 @@ a {
   font-weight: 600;
   color: white;
   border: 2.5px solid white;
-  box-shadow: -1px 1px 5px rgba(255, 255, 255,);
+  box-shadow: -1px 1px 5px rgba(255, 255, 255);
   border-radius: 5px;
   height: auto;
 
@@ -98,33 +96,32 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 13px;
-  justify-content: top ;
+  padding: 10px;
 
   &:hover {
     transition: 0.3s;
     background: white;
     color: $rosa-logo;
-    box-shadow: -1px 1px 5px rgba(255, 255, 255, 0.5);;
+    box-shadow: -1px 1px 5px rgba(255, 255, 255, 0.5);
   }
 
   & img {
     width: 6rem;
   }
 
-  & .subtext{
+  & .subtext {
     font-size: 10px;
     font-weight: 400;
   }
 }
 
-footer{
+footer {
   text-align: center;
 
   & .logo {
     width: 14rem;
     margin-top: 5px;
   }
-
 }
 
 .tt-div {
@@ -139,18 +136,17 @@ footer{
   }
 }
 
-.vanessa-div{
+.vanessa-div {
   gap: 1rem;
 }
 
-.midia-kit{
-  
+.midia-kit {
   & img {
     width: 10rem;
     height: 10rem;
     object-fit: cover;
     object-position: center;
-    border-radius: 5px 5px 1px 1px ;
+    border-radius: 5px 5px 1px 1px;
   }
 
   & span {
